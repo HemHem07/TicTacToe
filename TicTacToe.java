@@ -3,7 +3,7 @@ public class TicTacToe extends TicTacToeClasses {
     public static void main(String[] args) {
         boolean continues = true;
         String answer;
-        //while (continues == true) {
+        while (continues == true) {
             String input;
             int position;
             int row = 0;
@@ -63,12 +63,12 @@ public class TicTacToe extends TicTacToeClasses {
 
             }
             answer = bd.askForInput("Would you like to start a new game? (Yes to start a new game, No to exit)");
-            /*if (answer.equals("Yes")) {
+            if (answer.equals("Yes")) {
                 continues = true;
             } else {
                 continues = false;
             }
-        }*/
+        }
             
 
     }
